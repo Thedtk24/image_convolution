@@ -4,7 +4,7 @@ An image processing application implementing a **2D convolution filter**.
 
 ## Prerequisites & Dependencies
 
-* **C++ Compiler** with C++17 support (GCC, Clang, or AppleClang)
+* **C++ Compiler** with C++17 support
 * **CMake** (version 3.18 or higher)
 * **Third-Party Libraries**:
   * [stb_image.h](https://github.com/nothings/stb/blob/master/stb_image.h) and [stb_image_write.h](https://github.com/nothings/stb/blob/master/stb_image_write.h) by Sean Barrett (nothings/stb). Included directly in `include/`.
