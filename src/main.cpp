@@ -34,7 +34,7 @@ int main(int argc, char* argv[]){
     const std::vector<unsigned char>& inputData = processor.getDataVector();
     std::vector<unsigned char> outputData(width * height);
 
-    std::cout << "Application de la convolution CUDA en cours..." << std::endl;
+    std::cout << "CUDA convolution application..." << std::endl;
     launchCudaConvolution(inputData.data(), outputData.data(), width, height, kernel, kernelSize);
 
     processor.getDataVector() = std::move(outputData);
