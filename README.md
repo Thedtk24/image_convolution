@@ -1,6 +1,6 @@
 # CUDA / C++ 2D Image Convolution Filter
 
-A high-performance image processing application implementing a **2D convolution filter**, featuring both a CPU implementation (for local development on macOS) and a GPU-accelerated implementation via CUDA (for HPC clusters).
+An image processing application implementing a **2D convolution filter**.
 
 ## Prerequisites & Dependencies
 
